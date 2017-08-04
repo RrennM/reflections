@@ -1,0 +1,89 @@
+How did viewing a diff between two versions of a 
+file help you see the bug that was introduced?
+
+It helped because it put the two files right next
+to each other so you didn't have to go a great
+distance to look for the errors in the code 
+between the two files. it also helped because it
+brought the lines with the differences up instead
+of the whole file, again, so I didn't have to search
+very far to find the issues.
+
+
+
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+Having the entire history of a file would make me a better
+programmer because I would have access to all the changes
+which were made, when they were made, and who may have
+made them. It would make debugging issues a lot less 
+intensive (I think) and save me a lot of time.
+
+
+
+What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git, vs having versions
+automatically save, like done in Google Docs?
+
+I think the previous lesson shed a lot of light on the cons
+of manual saving commits. When is the right time? 
+Commits can be saved too soon or too late or even not
+at all. The pros to manual saving would be the ability to
+hit that "just right" spot according to personal
+standards. Auto saving may see the same arguments, though,
+for the most part I could see it just being saved too often.
+Ive worked with Google Docs before and it would seem my updates
+are being saved after every keystroke. Whether a commit is being
+saved at this time, i don't know, but this seems very
+excessive.
+
+
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat
+each file seperately?
+
+I'm really not sure, but I think it probably has to do with which
+content these systems work. Git must be more regularly used with
+software (or whatnot) which use multiple files at once. HTML and CSS
+were used as an example, and in my observation, I'll be using Git 
+within the Android Dev Nanodegree which also creates/uses multiple
+files at once. With Google Docs, you're really only editing one document
+at a time. (Not to mention, if two files were related, why not just
+combine them anyway.)
+
+
+
+How can you use the commands git log and git diff to view the history
+of files?
+
+With Git Log, you can view the history of commits for a specific file.
+Git Diff shows you the difference between to commits for this file.
+More information can be viewed by pressing down or enter, until you
+reach the (END).
+
+
+
+How might version control make you more confident to make changes
+which could break something?
+
+Honestly, I make these changes already. Although, I do it in a somewhat
+sloppy manner. In Android Studio, I comment out the code which I
+know will work and I insert the new code to try it out. I like this
+method, as it does what it's supposed to do. The Git method is 
+worth a try, though. It will be a lot cleaner, I guess, and allow me
+to just go ahead and make the changes without having to keep my 
+other code around and allow the project to be less convoluted.
+
+
+
+Now that you have your workspace set up, for what do you want to try
+using Git?
+
+Isn't this obvious? I want to try using it for version control! I'd
+honestly like to just get through this course quickly-ish, so I can
+start the next Nanodegree...
+
+
+

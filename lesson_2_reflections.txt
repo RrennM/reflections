@@ -1,0 +1,22 @@
+What happens when you initialize a repository? Why do you need to do this?
+
+When you initialize a repository, it creates an empty bank to where you
+can save you future commits. You need to do this for that reason- So 
+you have somewhere to save the future commits of the files within the 
+current directory.
+
+
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The staging area is a space kind of in between the repository and the
+working directory. The folder in which you're currently working is
+what is the working directory and the repository is where your commits
+of the files on which you're working will go. You essentially take 
+you current commits for the file out of the working directory and 
+place them into the staging area to prep them to store into the 
+repository. This may be valuable in the case the files change in the 
+working directory. I'm not actually too sure, yet. Maybe it's valuable
+in the case you're not sure if you want to commit this edition of the
+file, yet.
