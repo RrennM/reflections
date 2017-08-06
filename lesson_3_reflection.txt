@@ -1,0 +1,8 @@
+When would you want to create a remote repository rather than keeping all your work local?
+
+As said in the video, you may want to use a remote repository instead of a local if you're 
+working from another computer or if you're sharing your work with others. This way, the 
+repository is easily available to all who need access.
+
+
+
