@@ -23,3 +23,62 @@ file, yet.
 
 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+If, when you add the commit to the staging area, you check the status 
+of the file, you can see the differences between it and the most recent
+commited version of the file by using "git diff --staged".
+
+
+
+What are some situations when branches would be helpful in keep your history organized? How would branches help?
+
+First of all, I feel the second question is redundant. Just saying...
+
+I think a situation where branches would help keep things organized 
+would be if I had multiple versions or changes playing out for the app
+on which I'm working. I would then be able to check the git logs for 
+the various changes on which I'm working, giving me the ability to
+more easily keep track of the various stages of these changes.
+
+
+
+How do diagrams help you visualize the branch structure?
+
+Umm... They help by making the structure visual? This could be a 
+confusing topic if trying to explain it just auditorily, but by
+using visualizations, you're able to picture what is being 
+described and hopefully are given the chance to better understand
+the concept.
+
+
+
+What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+
+The result is that the master version of the file contains lines from
+each of the two (or however many) files which have been merged. I feel 
+it's represented in the diagram that way because it's the path of each 
+branch coming to an end and meeting or combining into a new branch, as 
+said, containing lines of code from each of the original branch files. 
+
+
+
+What are the pros and cons of Git's automatic merging vs always doing 
+merges manually?
+
+I think one of the pros of manual merging is to be able to ensure the 
+code you're looking to merge is accurate before actually merging it. If 
+Git was able to automatically merge files without question, you'd 
+probably lose a lot of your data because of the limitations Git has 
+when it tries to merge to commits. For example, if both commits dealt 
+with modifications of the same part of a file, Git wouldn't know which 
+version to go with, so it would have to choose and one of the mods 
+would be erased.
+
+A con of manual merging is that it's kind of time consuming (At leaset 
+for now, it is). I'm sure once I'm a little more used to it, it won't 
+take as long, but it will still be sort of redundant in any case. 
+
+
+
